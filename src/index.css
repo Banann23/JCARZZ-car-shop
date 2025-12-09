@@ -1,11 +1,11 @@
 @font-face {
   font-family: FugazOne;
-  src: url("./src/assets/FugazOne-Regular.ttf") format('truetype');
+  src: url("/FugazOne-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: Rubik;
-  src: url("./src/assets/Rubik-VariableFont_wght.ttf") format('truetype');
+  src: url("/Rubik-VariableFont_wght.ttf") format('truetype');
 }
 
 :root {
