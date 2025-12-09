@@ -1,0 +1,57 @@
+.heroSection {
+    width: 100%;
+    height: auto;
+    background-color: #7a4178;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heroTitle {
+    font-family: "FugazOne", sans-serif;
+    font-size: clamp(5.5rem, 14vw, 14rem);
+    letter-spacing: -0.03em;
+    line-height: 0.75;
+    color: #f4eede;
+    scale: 1.0;
+    transition: scale 0.3s ease;
+    margin-top: 5vh;
+}
+
+.heroSubtitle {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    color: #f4eede;
+    margin-bottom: 10vh;
+}
+
+.heroTitle:hover {
+    scale: 1.05;
+    transition: scale 0.3s ease;
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

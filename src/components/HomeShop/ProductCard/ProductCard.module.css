@@ -1,0 +1,31 @@
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    scale: 1.0;
+    transition: all 0.3s ease;
+}
+
+.productCard:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.productImage {
+    width: 20rem;
+    height: auto;
+    border-radius: 15px;
+    border: 0.25em solid #b676b4;
+}
+
+.productTitle {
+    font-size: 1.5rem;
+    margin: 1em 0 0.5em 0;
+    font-weight: bolder;
+}
+
+.productPrice {
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+    color: #555555;
+}

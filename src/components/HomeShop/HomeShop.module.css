@@ -1,0 +1,47 @@
+.shopSection {
+    margin: 5vh 0;
+}
+
+.shopSectionTitle {
+    font-family: "FugazOne", sans-serif;
+    font-size: clamp(5.5rem, 12vw, 12rem);
+    text-align: center;
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5%;
+    margin: 5vh 10vw;
+}
+
+.browseMoreButton {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7a4178;
+    background-color: #e9e3d3;
+    padding: 0.75em 1.5em;
+    border-radius: 15px;
+    border: 0.2em solid #7a4178;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.browseMoreButton:hover {
+    cursor: pointer;
+    color: #b676b4;
+    border-color: #b676b4;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .productContainer {
+        flex-direction: column;
+        margin: 5vh 5vw;
+    }
+}
