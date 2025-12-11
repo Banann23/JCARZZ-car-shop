@@ -4,7 +4,9 @@ import props from 'prop-types';
 function ProductCard({ imageSrc, altText, price }) {
     return (
         <div className={styles.productCard}>
-            <img className={styles.productImage} src={imageSrc} alt={altText} />
+            <div className={styles.productImageWrapper}>
+                <img className={styles.productImage} src={imageSrc} alt={altText} />
+            </div>
             <div className={styles.productInfo}>
                 <div className={styles.productTitle}> {altText} </div>
                 <div className={styles.productPrice}> {price} </div>

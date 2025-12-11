@@ -1,7 +1,7 @@
 .heroSection {
     width: 100%;
     height: auto;
-    background-color: #7a4178;
+    background-color: #0f0f0f;
 }
 
 .heroContent {
@@ -16,7 +16,7 @@
     font-size: clamp(5.5rem, 14vw, 14rem);
     letter-spacing: -0.03em;
     line-height: 0.75;
-    color: #f4eede;
+    color: white;
     scale: 1.0;
     transition: scale 0.3s ease;
     margin-top: 5vh;
@@ -24,7 +24,7 @@
 
 .heroSubtitle {
     font-size: clamp(1rem, 1.5vw, 1.5rem);
-    color: #f4eede;
+    color: white;
     margin-bottom: 10vh;
 }
 

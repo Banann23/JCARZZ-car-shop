@@ -4,8 +4,8 @@ import HomeNavbar from "../HomeNavbar/HomeNavbar.jsx";
 function HeroSection() {
     return (
         <>
-            <HomeNavbar />
             <section className={styles.heroSection}>
+                <HomeNavbar />
                 <div className={styles.heroContent}>
                     <div className={styles.heroTitle}>JCARZZ.</div>
                     <div className={styles.heroSubtitle}> Trusted by JDM enthusiasts worldwide</div>
