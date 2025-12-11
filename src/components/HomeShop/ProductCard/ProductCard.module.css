@@ -20,8 +20,6 @@
 .productImageWrapper {
     width: 100%;
     aspect-ratio: 1 / 1;
-    overflow: hidden;
-    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
