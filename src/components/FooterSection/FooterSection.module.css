@@ -1,6 +1,5 @@
 .footerSection {
-    background-color: #0f0f0f;
-    color: white;
+    background-color: var(--bg);
     padding: 1.5em 0;
     display: flex;
     justify-content: center;
@@ -8,6 +7,6 @@
 }
 
 .footerText {
-    font-size: clamp(0.75rem, 1.5vw, 1.5rem);
+    font-size: var(--ts-text-s);
     vertical-align: middle;
 }

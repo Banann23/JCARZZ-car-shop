@@ -1,0 +1,14 @@
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    scale: 1.0;
+    transition: var(--transition-fast);
+}
+
+button,
+a {
+    font-size: var(--ts-text-s);
+    transition: var(--transition-fast);
+}

@@ -1,38 +1,37 @@
 .heroSection {
     width: 100%;
     height: auto;
-    background-color: #0f0f0f;
+    background-color: var(--primary);
 }
 
 .heroContent {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 .heroTitle {
     font-family: "FugazOne", sans-serif;
-    font-size: clamp(5.5rem, 14vw, 14rem);
+    font-size: clamp(5rem, 12vw + 2rem, 14rem);
     letter-spacing: -0.03em;
     line-height: 0.75;
-    color: white;
     scale: 1.0;
-    transition: scale 0.3s ease;
     margin-top: 5vh;
-}
-
-.heroSubtitle {
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
-    color: white;
-    margin-bottom: 10vh;
+    transition: var(--transition-slow);
 }
 
 .heroTitle:hover {
     scale: 1.05;
-    transition: scale 0.3s ease;
     animation: shake 0.5s;
 }
+
+.heroSubtitle {
+    font-size: var(--ts-text-sm);
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
 
 @keyframes shake {
     0% {

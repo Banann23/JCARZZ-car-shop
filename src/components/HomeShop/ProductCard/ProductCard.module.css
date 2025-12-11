@@ -6,16 +6,15 @@
     align-items: flex-start;
     justify-content: flex-start;
     scale: 1.0;
-    transition: all 0.3s ease;
-    background-color: rgb(241, 241, 241);
+    transition: var(--transition-fast);
+    background-color: var(--bg);
     padding: 1.5em;
     border-radius: 25px;
-    box-shadow: inset 0 1px 2px rgb(255, 255, 255), 0 1px 2px rgb(99, 97, 90);
+    box-shadow: var(--shadow-inset);
 }
 
 .productCard:hover {
     transform: scale(1.02);
-    transition: all 0.3s ease;
 }
 
 .productImageWrapper {
@@ -34,16 +33,17 @@
     object-fit: cover;
     display: block;
     border-radius: 15px;
-    box-shadow: inset 0 1px 2px rgb(255, 255, 255), 0 1px 2px rgb(99, 97, 90);
+    border: var(--border);
+    box-shadow: var(--shadow);
 }
 
 .productTitle {
-    font-size: 1.5rem;
+    font-size: var(--ts-text-sm);
     margin: 1em 0 0.5em 0;
     font-weight: bolder;
 }
 
 .productPrice {
-    font-size: 1.25rem;
-    color: #555555;
+    font-size: var(--ts-text-sm);
+    color: var(--text-muted);
 }

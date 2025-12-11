@@ -1,7 +1,6 @@
 .navbarSection {
     width: 100%;
     height: 10vh;
-    background-color: #0f0f0f;
 }
 
 .navbar {
@@ -14,7 +13,6 @@
 }
 
 .navbar li a {
-    text-decoration: none;
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
-    color: white;
+    font-size: var(--ts-text-sm);
+    font-weight: 450;
 }
