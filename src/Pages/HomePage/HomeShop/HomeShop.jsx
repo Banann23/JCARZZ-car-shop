@@ -1,5 +1,5 @@
 import styles from './HomeShop.module.css';
-import ProductCard from './ProductCard/ProductCard.jsx';
+import ProductCard from '../../../components/ProductCard/ProductCard.jsx';
 
 function HomeShop() {
     return (
